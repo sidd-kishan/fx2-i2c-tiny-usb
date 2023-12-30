@@ -15,7 +15,7 @@ In original firmware has been used AVR ICS instead of Cypress FX2 chips, and cou
    1. `apt install sdcc i2c-tools python3-libusb1`
    2. `python3 -m pip install fx2`
 2. Clone recursively this repo
-   1. `git clone --recurse-submodules https://github.com/intx82/fx2-i2c-tiny-usb`
+   1. `git clone --recurse-submodules https://github.com/sidd-kishan/fx2-i2c-tiny-usb`
 3. Build original (open source <a href="https://github.com/whitequark/libfx2.git">https://github.com/whitequark/libfx2.git</a>) FX2 SDK
    1. `make -C libfx2/firmware`
 4. Attach cy7c68013 board and build and load into RAM this firmware
